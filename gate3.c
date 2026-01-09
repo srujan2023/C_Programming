@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int m=5;
+    int m=10;
     int n, n1;
     n=++m;
     n1 = m++;
