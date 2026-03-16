@@ -9,12 +9,9 @@ int main(){
     if(temperature<=20){
         printf("Wear a sweater!");
     }
-    
-     else if(temperature>30){
-        printf("Stay Safe!\n");
-    }
 
-    else if(temperature>20 || temperature<30){
+  
+    else if(temperature>20 && temperature<30){
         printf("Normal\n");
     }
    
